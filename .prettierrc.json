@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json.schemastore.org/prettierrc",
+
+  "bracketSameLine": false,
+  "endOfLine": "auto",
+  "printWidth": 100,
+  "pugAttributeSeparator": "none",
+  "semi": true,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": true,
+  "plugins": ["@prettier/plugin-pug", "prettier-plugin-tailwindcss"],
+  "pluginSearchDirs": false
+}

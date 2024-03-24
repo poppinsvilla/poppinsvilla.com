@@ -1,0 +1,7 @@
+{
+  "extends": [
+    "@nuxt/eslint-config",
+    "plugin:prettier/recommended",
+    "plugin:vue-pug/vue3-recommended"
+  ]
+}

@@ -1,0 +1,16 @@
+body {
+  /* customize swiper.js */
+  --swiper-theme-color: white;
+}
+
+a {
+  @apply cursor-pointer text-amber-900 hover_text-amber-700;
+}
+
+.swiper-slide-size {
+  @apply relative h-screen max-h-[400px] w-screen sm_max-h-[500px] md_max-h-[780px];
+}
+
+.swiper-slide-text-overlay {
+  @apply absolute inset-x-0 bottom-0 bg-black/25 p-5 text-white;
+}
