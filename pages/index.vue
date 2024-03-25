@@ -22,7 +22,7 @@ div
 
 <script lang="ts" setup>
   useHead({
-    title: 'Poppins Villa | Home Stay',
+    title: 'Poppins Villa | A home like home stay',
     meta: [
       {
         name: 'description',

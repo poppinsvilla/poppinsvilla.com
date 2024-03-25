@@ -1,6 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
+  nitro: {
+    prerender: {
+      failOnError: false,
+    },
+  },
   css: ['~/assets/styles/main.css', '~/assets/styles/helper.css'],
   modules: [
     '@nuxtjs/tailwindcss',
