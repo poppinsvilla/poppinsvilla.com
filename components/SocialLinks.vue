@@ -1,6 +1,6 @@
 <template lang="pug">
 div
-  small.hidden.text-amber-600.md_block FOLLOW US ON
+  small.font-display.text-amber-600.md_block FOLLOW US ON
   .flex.items-center
     a(target='_blank' href='//www.facebook.com/share/EJnZedZvFj8tV25Z')
       svg.h-6.w-6

@@ -11,19 +11,15 @@ header.bg-white(role='banner')
           social-links
             //- social icons render here
 
-      .ml-auto.text-sm.md_text-base(role='navigation')
+      .ml-auto.font-display(role='navigation')
         .gap-x-4.pr-4.text-right.sm_ml-0.sm_flex
           .flex.flex-col.items-end
-            .mb-1.flex.items-center
-              div
-                div
-                  a(href='tel:+91-9148444934' aria-label='Call us # one') +91-9148444934
-                div
-                  a(href='tel:+91-9845448902' aria-label='Call us # two') +91-9845448902
+            .flex.items-center
+              a.text-lg.md_text-xl(href='tel:+91-9845448902' aria-label='Call us # two') +91-9845448902
               svg.ml-1.h-4.w-4.text-amber-600
                 use(href='#fa-phone')
             .flex.items-center
-              a(href='mailto:poppinsvilla@gmail.com' aria-label='Email us') poppinsvilla@gmail.com
+              a.text-sm.md_text-base(href='mailto:poppinsvilla@gmail.com' aria-label='Email us') poppinsvilla@gmail.com
               svg.ml-2.h-4.w-4.text-amber-600
                 use(href='#fa-envelope')
 </template>

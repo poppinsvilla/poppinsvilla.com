@@ -12,7 +12,7 @@ swiper(
     .swiper-slide-size
       img.h-full.w-full.object-cover(:src='item.image' :alt='item.title')
       .swiper-slide-text-overlay
-        h2.font-display.text-2xl.font-bold.sm_text-3xl.lg_text-4xl {{ item.title }}
+        h2.text-2xl.font-bold.sm_text-3xl.lg_text-4xl {{ item.title }}
 </template>
 
 <script setup lang="ts">
