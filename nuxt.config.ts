@@ -9,6 +9,7 @@ export default defineNuxtConfig({
   },
   css: ['~/assets/styles/main.css', '~/assets/styles/helper.css'],
   modules: [
+    '@nuxt/content',
     '@nuxtjs/tailwindcss',
     [
       '@nuxtjs/eslint-module',
@@ -18,6 +19,9 @@ export default defineNuxtConfig({
     ],
     'nuxt-swiper',
   ],
+  content: {
+    documentDriven: true,
+  },
   swiper: {
     // Swiper options
     //----------------------
