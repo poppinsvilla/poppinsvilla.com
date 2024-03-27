@@ -21,6 +21,13 @@ div
 </template>
 
 <script lang="ts" setup>
+  definePageMeta({
+    documentDriven: {
+      page: false, // Keep page fetching enabled
+      surround: false, // Disable surround fetching
+    },
+  });
+
   useHead({
     title: 'Poppins Villa | A home like home stay',
     meta: [
