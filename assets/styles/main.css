@@ -14,3 +14,7 @@ a {
 .swiper-slide-text-overlay {
   @apply absolute inset-x-0 bottom-0 bg-black/25 p-5 text-white;
 }
+
+.btn-logo {
+  @apply h-[68px] w-[150px] md_h-[100px] md_w-[220px];
+}

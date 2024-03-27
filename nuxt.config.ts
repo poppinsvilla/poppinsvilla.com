@@ -3,6 +3,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   nitro: {
     prerender: {
+      crawlLinks: true,
       failOnError: false,
     },
   },

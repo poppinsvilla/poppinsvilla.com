@@ -9,7 +9,7 @@ footer.bg-amber-200
     div
       | Designed and Developed with ❤️ by&nbsp;
       a.text-amber-200.hover_text-white(
-        href='www.itdevz.com'
+        href='//www.itdevz.com'
         target='_blank'
         aria-label='Go to Designer/Developer website'
       ) www.itdevz.com

@@ -23,9 +23,3 @@ header.bg-white(role='banner')
               svg.ml-2.h-4.w-4.text-amber-600
                 use(href='#fa-envelope')
 </template>
-
-<style>
-  .btn-logo {
-    @apply h-[68px] w-[150px] md_h-[100px] md_w-[220px];
-  }
-</style>
