@@ -1,15 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  nitro: {
-    prerender: {
-      crawlLinks: true,
-      failOnError: false,
-    },
-  },
   css: ['~/assets/styles/main.css', '~/assets/styles/helper.css'],
   modules: [
-    '@nuxt/content',
     '@nuxtjs/tailwindcss',
     [
       '@nuxtjs/eslint-module',
@@ -19,9 +12,6 @@ export default defineNuxtConfig({
     ],
     'nuxt-swiper',
   ],
-  content: {
-    documentDriven: true,
-  },
   swiper: {
     // Swiper options
     //----------------------
@@ -37,6 +27,11 @@ export default defineNuxtConfig({
       title: 'Poppins Villa - A home like home stay',
       meta: [
         { charset: 'utf-8' },
+        {
+          name: 'description',
+          content:
+            'Welcome to Poppins Villa - Experience the perfect blend of comfort and hospitality in our home stay.',
+        },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         {
           name: 'keywords',
